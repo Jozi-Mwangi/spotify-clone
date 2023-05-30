@@ -7,12 +7,7 @@ import "../main.css"
 const Homepage = () => {
   return (
     <div className="homepage-main-container">
-      <h1 style={{fontWeight: "bold"}} >Home</h1>
-      <div className="main-sidebar-container" >
-        <Sidebar/>
-        <Minibar/>
-      </div>
-
+      <h1 style={{fontWeight: "bold"}} >Good Morning</h1>
     </div>
   )
 }
