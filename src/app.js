@@ -8,9 +8,9 @@ import Footer from './components/Footer.js'
 const App = () => {
     return (
         <>
-            <div style={{display: "flex"}}  >
+            <div className="flex">
                 <Router >
-                    <div style={{display:"inline-block"}} >
+                    <div className="flex flex-col mx-2 my-2 h-screen gap-2">
                         <Sidebar/>
                         <Minibar/>
                     </div>
