@@ -19,10 +19,9 @@ const App = () => {
                         <Route path="/search-page" element={<Searchpage/>}/>
                     </Routes>
                 </Router>
-                <div className="footer-container" >
-                    <Footer/>
-                </div>
+                
             </div>
+            
         </>
     )
 }
